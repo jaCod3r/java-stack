@@ -7,9 +7,10 @@ public class Main {
 
         Stack data = new Stack();
         data.pop();
-        data.push("3");
         data.print();
-        data.pop();
+        data.push("first");
+        data.push("second");
+        data.print();
 
 //        data.push("7");
 //        System.out.println("Size is " + data.size());

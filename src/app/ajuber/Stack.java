@@ -37,8 +37,9 @@ public class Stack {
       if(n == null) {
         continue;
       } else {
-        System.out.print(n + " ");
+        System.out.print("'" + n + "'" + ",");
       }
     }
+
   }
 }
